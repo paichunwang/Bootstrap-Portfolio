@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Basic Protfolio - Bootstrap ONLY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body class="page">
+  <div class="container-fluid">
+    <div class="row" class="navRow" style="height: 50px;">
+      <div class="col-md-8" style="background-color: white">
+        <h1>Patrick Wang</h1>
+      </div>
+      <div onclick="location.href='index.html';" style="cursor:pointer;" class="col-md-1" id="navBar">
+        <a href="index.html">About Me</a>
+      </div>
+      <div onclick="location.href='portfolio.html';" style="cursor:pointer;" class="col-md-1" id="navBar">
+        <a href="portfolio.html">Protfolio</a>
+      </div>
+      <div onclick="location.href='contact.html';" style="cursor:pointer;" class="col-md-1" id="navBar">
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="col-md-1" id="navBar">
+      </div>
+    </div>
+    <div class="contentRow">
+      <h2>Contact</h2>
+      <hr>
+      <div class="container-fluid">
+        <form action="/action_page.php">
+          <div class="row">
+            <div class="col-md-12">
+              <label for="name">Name</label>
+            </div>
+            <div class="col-md-12">
+              <input type="text" id="name" name="fullName" placeholder="John Smith">
+            </div>
+            <div class="col-md-12">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-md-12">
+              <input type="text" id="email" name="emailAddress" placeholder="example@google.com">
+            </div>
+            <div class="col-md-12">
+              <label for="message">Message</label>
+            </div>
+            <div class="col-md-12">
+              <input type="text" id="message" name="sentMessage" placeholder="Tell me what you think...">
+            </div>
+          </div>
+          <br>
+          <div class="submit">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
