@@ -4,7 +4,7 @@ This HTML coded file is used demonstrate a basic understanding of Bootstrap usag
 
 ## Getting Started
 
-Download the repository using you preferred method:
+Download the repository using your preferred method:
 
 ```
 Option #1 (SSH): git@github.com:paichunwang/Bootstrap-Portfolio.git
